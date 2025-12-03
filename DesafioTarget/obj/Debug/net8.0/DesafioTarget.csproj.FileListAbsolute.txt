@@ -1,0 +1,14 @@
+C:\Users\mathe\Documents\GitHub\desafioTarget\DesafioTarget\bin\Debug\net8.0\DesafioTarget.exe
+C:\Users\mathe\Documents\GitHub\desafioTarget\DesafioTarget\bin\Debug\net8.0\DesafioTarget.deps.json
+C:\Users\mathe\Documents\GitHub\desafioTarget\DesafioTarget\bin\Debug\net8.0\DesafioTarget.runtimeconfig.json
+C:\Users\mathe\Documents\GitHub\desafioTarget\DesafioTarget\bin\Debug\net8.0\DesafioTarget.dll
+C:\Users\mathe\Documents\GitHub\desafioTarget\DesafioTarget\bin\Debug\net8.0\DesafioTarget.pdb
+C:\Users\mathe\Documents\GitHub\desafioTarget\DesafioTarget\obj\Debug\net8.0\DesafioTarget.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathe\Documents\GitHub\desafioTarget\DesafioTarget\obj\Debug\net8.0\DesafioTarget.AssemblyInfoInputs.cache
+C:\Users\mathe\Documents\GitHub\desafioTarget\DesafioTarget\obj\Debug\net8.0\DesafioTarget.AssemblyInfo.cs
+C:\Users\mathe\Documents\GitHub\desafioTarget\DesafioTarget\obj\Debug\net8.0\DesafioTarget.csproj.CoreCompileInputs.cache
+C:\Users\mathe\Documents\GitHub\desafioTarget\DesafioTarget\obj\Debug\net8.0\DesafioTarget.dll
+C:\Users\mathe\Documents\GitHub\desafioTarget\DesafioTarget\obj\Debug\net8.0\refint\DesafioTarget.dll
+C:\Users\mathe\Documents\GitHub\desafioTarget\DesafioTarget\obj\Debug\net8.0\DesafioTarget.pdb
+C:\Users\mathe\Documents\GitHub\desafioTarget\DesafioTarget\obj\Debug\net8.0\DesafioTarget.genruntimeconfig.cache
+C:\Users\mathe\Documents\GitHub\desafioTarget\DesafioTarget\obj\Debug\net8.0\ref\DesafioTarget.dll
