@@ -9,8 +9,27 @@ JsonSerializerOptions options = new JsonSerializerOptions
 };
 var listaDeVendas = JsonSerializer.Deserialize<VendasData>(jsonString, options)!;
 
+// Total de comissões por vendedor
+var comissaoPorVendedor = new Dictionary<string, double>();
+
 foreach (var venda in listaDeVendas.Vendas)
 {
-    Console.WriteLine($"Vendedor: {venda.Vendedor} - Valor: {venda.Valor} - Comissão: {venda.calcularComissao()}");
+    var comissao = venda.calcularComissao();
+    if (comissaoPorVendedor.ContainsKey(venda.Vendedor))
+    {
+        comissaoPorVendedor[venda.Vendedor] += comissao;
+    }
+    else
+    {
+        comissaoPorVendedor[venda.Vendedor] = comissao;
+    }
 }
+
+foreach (var comissao in comissaoPorVendedor)
+{
+    Console.WriteLine($"Vendedor: {comissao.Key} - Comissão Total: {comissao.Value.ToString("C2")}");
+}
+
+
+// Desafio 2
 
