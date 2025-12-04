@@ -1,5 +1,4 @@
 using System.Text.Json;
-using System.Xml.Serialization;
 
 // Desafio 1
 string jsonString = File.ReadAllText("vendas.json");
@@ -33,3 +32,10 @@ foreach (var comissao in comissaoPorVendedor)
 
 // Desafio 2
 
+// Desafio 3
+System.Console.WriteLine("Informe o valor inicial:");
+double valorInicial = Convert.ToDouble(Console.ReadLine());
+System.Console.WriteLine("Informe a data de vencimento (formato: yyyy-MM-dd):");
+DateTime dataDeVencimento = DateTime.Parse(Console.ReadLine()!);
+double valorJuros = Financas.CalcularJurosCompostos(valorInicial, dataDeVencimento);
+System.Console.WriteLine($"Valor dos juros na data de hoje: {valorJuros.ToString("C2")}");
