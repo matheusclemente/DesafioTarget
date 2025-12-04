@@ -1,3 +1,4 @@
+namespace DesafioTarget;
 /// <summary>
 ///  Conjunto de dados de vendas.
 /// </summary>
@@ -15,12 +16,6 @@ public class VendasData
 /// </summary>
 public class Venda
 {
-    private const double valorParaComissaoMinima = 100;
-    private const double valorParaComissaoMaxima = 500;
-
-    private const double taxaComissaoMinima = 0.01;
-    private const double taxaComissaoMaxima = 0.05;
-
     /// <summary>
     /// Nome do vendedor.
     /// </summary>
@@ -30,11 +25,17 @@ public class Venda
     /// </summary>
     public double Valor { get; set; }
 
+    private const double valorParaComissaoMinima = 100;
+    private const double valorParaComissaoMaxima = 500;
+
+    private const double taxaComissaoMinima = 0.01;
+    private const double taxaComissaoMaxima = 0.05;
+
     /// <summary>
     /// Calcula a comissão da venda com base no valor.
     /// </summary>
     /// <returns>Valor da comissão.</returns>
-    public double calcularComissao()
+    public double CalcularComissao()
     {
         if (Valor < valorParaComissaoMinima)
         {
